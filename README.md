@@ -1,0 +1,2 @@
+# Community-portals
+"1. These tools implement the core idea of communities as groups of people who come together for a specific purpose. These communities use a set of tools such as calendars, forums, blog tools etc. The specific tools in a community are determined by what the user wants to use the community for 2. Communities have membership models. Users join communities based on membership modles 3. Communities have roles - what a user can do in a community is determined by their role. The role in turn is a mapping on the actions of the community."
