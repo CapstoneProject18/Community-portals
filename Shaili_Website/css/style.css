@@ -1,0 +1,266 @@
+
+body{
+	
+    font-family: Arial ,Helvetica, sans-serif;
+    font-size:15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+	
+}
+/*global*/
+.container{
+	
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+	
+}
+
+u1{
+	
+    margin: 0;
+    padding: 0;
+    
+}
+
+.button_1{
+	
+    height: 38px;
+    background:#e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+	
+}
+
+.dark{
+	
+    padding: 15px;
+    background: grey;
+    color:#ffffff;
+    margin-top:10px;
+    margin-bottom:10px;
+	
+    
+}
+
+header{
+	
+    background: black;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+	
+}
+
+header a{
+	
+    color=#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+	
+}
+
+header li{
+	
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+	
+}
+
+header #branding{
+	
+    float: left;
+	
+}
+
+header #branding h1{
+	
+    margin: 0;
+	
+}
+header nav{
+	
+    float: right;
+    margin-top: 10px;
+	
+}
+
+header .highlight, header .current a{
+	
+    color:orangered;
+    font-weight: bold;
+	
+}
+
+header a:hover{
+	
+    color: #cccccc;
+    font weight=bold;
+	
+}
+
+#showcase{
+	
+    min-height: 400px;
+    background:url(../img/1200px-Botanical_Garden_V.L._Komarov_Botanical_Institute.jpg) no-repeat 0 -400px;
+    text-align: center;
+    color: #ffffff;
+	
+} 
+
+#showcase h1{
+	
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 18px;
+    
+}
+
+#showcase p{
+	
+    font-size: 20px;
+	
+}
+
+#newsletter{
+	
+    padding: 15px;
+    color: #ffffff;
+    background: #35454a;
+	
+}
+
+#newsletter h1{
+	
+    float: left;
+	
+}
+
+#newsletter form{
+	
+    float:right;
+    margin-top: 15px;
+	
+}
+
+#newsletter input[type="email"]{
+	
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+	
+}
+.sidenav {
+	
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+	
+}
+
+.mainmenu, .submenu {
+	
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.mainmenu a {
+	
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 23px;
+	color: white;
+	display: block;
+	transition: 0.3s;
+	
+}
+
+.mainmenu a:hover {
+	
+    color: #f1f1f1;
+	background-color: red;
+	
+}
+
+.mainmenu .submenu a {
+	
+	color: black;
+	
+}
+
+.mainmenu li:hover .submenu {
+	
+	display: block;
+	max-height: 200px;
+	background-color: white;
+	
+  
+}
+
+.submenu {
+	
+	overflow: hidden;
+	max-height: 0;
+	-webkit-transition: all 0.5s ease-out;
+	
+}
+
+.sidenav .closebtn {
+	
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+	
+}
+
+@media screen and (max-height: 450px) {
+	
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+  
+}
+/*main-col*/
+
+article#main-col{
+	
+    float:left;
+    width:65%;
+        
+} 
+
+/* side bar*/
+aside#sidebar{
+	
+	float:right;
+	width:30%;
+	margin-top: 10px;
+	
+}
+
+footer{
+	
+	padding:20px;
+	margin-top 20px;
+	color:#ffffff;
+	background-color:#e8491d;
+	text-align:center;
+
+}
